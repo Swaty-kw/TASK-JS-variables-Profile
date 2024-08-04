@@ -2,7 +2,7 @@
  * Part 1: Creating Variables and Constants
  * In this file you should define the following variables with the exact names
  *
- * 1. fullName      -> assign it a value of your full name
+ * 1. let     -> assign it a value of your full name
  * 2. yearOfBirth   -> assign it a value of your year of birth
  * 3. hobby         -> assign it a value of your favorite hobby
  * 4. funFact       -> assign it a value of some fun fact about yourself
@@ -10,11 +10,6 @@
  */
 
 // Part 1 answer 👇🏻 ...
-
-
-
-
-
 
 /**
  * Part 2: String Interpolation
@@ -24,7 +19,7 @@
  * 1. fullNameString      -> assign it to: My name is {fullName}
  * 2. yearOfBirthString   -> assign it to: I am {YOUR_AGE}, and make sure you calculate your age from your year of birth
  * 3. hobbyString         -> assign it to: My hobby is {YOUR_HOBBY}
- * 
+ *
  * Uncomment the following lines and start interpolating.
  * You can uncomment a line by removing the // at the start
  */
@@ -32,9 +27,6 @@
 // const fullNameString = `My name is ${}`;
 // const yearOfBirthString =
 // const hobbyString =
-
-
-
 
 /**
  * Part 3: Re-assignment
@@ -46,13 +38,26 @@ let stars = 0;
 function incrementBy1() {
   // Increment stars by 1 👇🏻
 }
+stars++;
 function decrementBy1() {
   // decrement stars by 1 👇🏻
 }
-
+++start;
 function incrementBy2() {
   // Increment stars by 2 👇🏻
 }
+stars;
 function decrementBy2() {
   // decrement stars by 2 👇🏻
 }
+let fullName = "Hussain a Dashti";
+const yearofbirth = "14/10/1998";
+console.log(yearofbirth);
+
+const Hobby = "Swimming";
+let funfact = "qatar has the largest natural gas reserves in the world";
+const img = "https://i.imgflip.com/1sfsxa.jpg?a478392";
+const fullname = "myname is `$hussain a dashti";
+console.log(fullname);
+yearofbirth = "my age is `$26";
+Hobby = "my hobby is `$Swimming";
